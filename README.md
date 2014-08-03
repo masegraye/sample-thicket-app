@@ -1,2 +1,2 @@
-sample-grove-app
+sample-thicket-app
 ================

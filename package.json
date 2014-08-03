@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "sample-thicket-app",
+  "version": "0.0.0",
+  "description": "Sample GroveJS application",
+  "scripts": {
+    "server": "node script/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maseb/sample-thicket-app.git"
+  },
+  "author": "Mason Browne <mason.browne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maseb/sample-thicket-app/issues"
+  },
+  "homepage": "https://github.com/maseb/sample-thicket-app",
+  "dependencies": {
+    "thicket" : "= 0.0.1",
+    "bluebird": "= 2.2.2",
+    "underscore": "= 1.6.0"
+  }
+}
