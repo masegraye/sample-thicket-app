@@ -1,8 +1,5 @@
 {
   "default" : {
     "foo" : "default-foo"
-  },
-  "default+master" : {
-    "foo" : "master-foo"
   }
 }

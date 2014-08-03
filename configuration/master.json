@@ -1,0 +1,5 @@
+{
+  "default+master" : {
+    "foo" : "master-foo"
+  }
+}

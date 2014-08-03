@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "description": "Sample GroveJS application",
   "scripts": {
-    "server": "node script/server.js"
+    "server": "node script/server.js --scopes=default --configurationFiles=./configuration/default.json",
+    "server-master": "node script/server.js --scopes=default,master --configurationFiles=./configuration/default.json,./configuration/master.json"
   },
   "repository": {
     "type": "git",
