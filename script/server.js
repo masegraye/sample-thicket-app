@@ -6,6 +6,9 @@ var _            = require("underscore"),
     App          = thicket.c("app"),
     Bootstrapper = thicket.c("bootstrapper");
 
+
+var Log = Logger.create("MySampleApp");
+
 var MySampleApp = function() {
   this.initialize.apply(this, arguments);
 };
@@ -13,17 +16,15 @@ var MySampleApp = function() {
 _.extend(MySampleApp.prototype, App.prototype, {
   initialize: function() {
     App.prototype.initialize.apply(this, arguments);
-    this._log = Logger.create("MySampleApp");
   },
   up: Promise.method(function() {
-    this._log.debug("Look at me, doing some meaningful setup work...");
+    Log.debug("Look at me, doing some meaningful setup work...");
   }),
   down: Promise.method(function() {
-    this._log.debug("Look at me, doing some meaningful teardown work...");
+    Log.debug("Look at me, doing some meaningful teardown work...");
   })
 });
 
-Log = Logger.create("Main");
 Logger.root().setLogLevel(Logger.Level.Debug);
 Logger.root().addAppender(new CLA());
 
