@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sample-thicket-app",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Sample GroveJS application",
   "scripts": {
     "server": "node script/server.js --scopes=default --configurationFiles=./configuration/default.json",
