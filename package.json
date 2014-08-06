@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sample-thicket-app",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Sample GroveJS application",
   "scripts": {
     "server": "node script/server.js --scopes=default --configurationFiles=./configuration/default.json",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/maseb/sample-thicket-app",
   "dependencies": {
-    "thicket" : "= 0.1.0",
+    "thicket" : "= 0.3.1",
     "bluebird": "= 2.2.2",
     "underscore": "= 1.6.0"
   }
